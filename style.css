@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: url('/grass-covers-the-ground-1197229__340.jpg');
+    background: blur(50%);
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 10px;
+    /* z-index: 1; */
+    /* position: fixed; */
+    width: 100%;
+    background: #fff;
+    font-weight: 900;
+}
+
+.sec1 h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 225px;
+  font-weight:900;
+  font-size: 25px;
+}
+
+
+.sec1 span{
+    color: rgb(40, 189, 40);
+    font-weight: 900;
+}
+
+.sec1 input{
+    width: 350px;
+    height: 50px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    position: relative;
+    left: 10px;
+    border: 1px solid #000;
+    color: black;
+    background: #fff;
+}
+.sec1 input:focus{
+    outline: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: -1; */
+    background: rgb(40, 189, 40);
+    /* padding: 25px 10px; */
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 25px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul:hover a{
+    color: green;
+}
+
+.nav ul:hover a:hover{
+    color: #fff;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+.content{
+    color: #fff;
+    min-height: 80vh;
+    position: relative;
+    top: 170px;
+    left:300px;
+    display: inline-block;
+}
+
+.content h3{
+    font-size: 25px;
+    color: #d7ff37;
+}
+
+
+.content h1{
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.content span{
+    font-size: 30px;
+    color: #fffbfb8e;
+}
+
+.content button{
+    height: 25px;
+    padding: 20px;
+    position: relative;
+    top: 15px;
+    background-color: rgb(40, 189, 40);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content button:hover{
+    border: 2px solid #fff;
+    color: #fffbfb8e;
+}
+.cardsservices{
+  display: flex;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  position: relative;
+  bottom: 0;
+  background: #fff;
+  padding: 20px 20px;
+}
+
+.card{
+    padding: 25px 25px;
+}
