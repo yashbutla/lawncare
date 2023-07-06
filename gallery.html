@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LawnCare-GALLARY</title>
+</head>
+<style>
+    span{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(40, 189, 40);
+        color: #fff;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:30px;
+    }
+</style>
+<body>
+    <span>GALLERY</span>
+    <hr>
+    <hr>
+    <p>Pariatur, sequi. Consequatur debitis consequuntur iure unde quisquam pariatur laboriosam facilis, eligendi delectus sed!</p>
+    <hr>
+    <hr>
+    <div style="justify-content: center; align-items: center; display: flex; width: 100%;">
+    <img id="image5" style="width: 555px; height: 555px;" src="" alt="Random Image">
+    <img id="image" style="width: 555px; height: 555px;" alt="Random Image">
+    <img id="image1" style="width: 555px; height: 555px;" src="" alt="Random Image">
+    <img id="image2" style="width: 555px; height: 555px;" src="" alt="Random Image">
+    <img id="image3" style="width: 555px; height: 555px;" src="" alt="Random Image">
+    <img id="image4" style="width: 555px; height: 555px;" src="" alt="Random Image">
+    </div>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image1');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+      window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image2');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image3');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image4');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+      window.addEventListener('DOMContentLoaded', () => {
+        const imageElement = document.getElementById('image5');
+        const imageAPI = 'https://source.unsplash.com/random'; // Replace with your image API or source
+      
+        function getRandomImage() {
+          imageElement.src = `${imageAPI}/${Math.random()}`;
+        }
+      
+        getRandomImage();
+      
+        // Reload a new image on page refresh
+        window.addEventListener('beforeunload', () => {
+          window.localStorage.removeItem('imageLoaded');
+        });
+      
+        window.addEventListener('load', () => {
+          if (!window.localStorage.getItem('imageLoaded')) {
+            getRandomImage();
+            window.localStorage.setItem('imageLoaded', 'true');
+          }
+        });
+      });
+      
+    </script>
+    
+</body>
+</html>
